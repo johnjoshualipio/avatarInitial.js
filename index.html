@@ -1,23 +1,53 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Avatar Initial</title>
-		<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script src="src/jquery.avatarInitial.min.js"></script>
-	</head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Avatar Initial</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-	<body>
-	<image class="name" data-name="John Joshua Lipio" width="100px" height="100px" />
-	<image class="name" data-name="John Joshua Lipio" width="100px" height="100px" src='demo/avatar.png'/>
-	
-	<script>
-		$(document).ready(function(){
-			$('.name').avatarInitial();
-		});
-	</script>
-	</body>
+    <!--For Demo Only-->
+    <link href='demo/demo.css' rel='stylesheet' type='text/css'>
+    <!--For Demo Only-->
+
+    <!--Required-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="src/jquery.avatarInitial.js"></script>
+    <!--Required-->
+</head>
+
+<body>
+<div id="navigation">
+    <nav>
+        <div class="close"></div>
+        <a href="#">Home</a><a href="#">Works</a><a href="#">Blog</a><a href="#">Contact</a><a href="#">About</a>
+    </nav>
+</div>
+<div id="main-content">
+    <div id="content-front">
+        <div class="hamburger"><span></span></div>
+        <div id="container">
+            <section>
+                <h1>Avatar Initial</h1>
+            </section>
+            <section>
+                <image class="name" data-name="John Joshua Lipio" width="100px" height="100px" />
+                <image class="name" data-name="John Joshua Lipio" width="100px" height="100px" src='demo/avatar.png'/></section>
+            </section>
+            <section></section>
+            <section></section>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.name').avatarInitial();
+    });
+</script>
+
+<!--For Demo Only-->
+<script src="demo/demo.js"></script>
+<!--For Demo Only-->
+</body>
 </html>
