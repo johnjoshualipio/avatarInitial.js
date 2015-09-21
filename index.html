@@ -1,17 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-    <script src="src/jquery.min.js"></script>
-    <script src="src/avatarInitial.js"></script>
-</head>
-<body>
-    <image class=".demo_image" >
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Avatar Initial</title>
+		<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="src/jquery.avatarInitial.min.js"></script>
+	</head>
 
-
-    <script>
-        $(".demo_image").avatarInitial();
-    </script>
-</body>
+	<body>
+	<div class="name" data-name="John Joshua Lipio" >ss</div>
+	<div class="name" data-name="Bryan Realuyo" >ss</div>
+	<image class="name" data-name="John Joshua Lipio">
+	<image class="name" data-name="John Joshua Lipio" src='demo/avatar.png'>
+	
+	<script>
+		$(document).ready(function(){
+			$('.name').avatarInitial();
+		});
+	</script>
+	</body>
 </html>
