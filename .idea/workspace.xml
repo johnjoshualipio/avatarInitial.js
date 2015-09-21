@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bb49944-3ace-4e70-a954-72bbae758909" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="avatarInitial.iws" />
@@ -238,7 +235,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442822302272</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Page Design">
+      <created>1442836056566</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1442836056566</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -284,7 +287,8 @@
     </option>
     <MESSAGE value="a" />
     <MESSAGE value="none" />
-    <option name="LAST_COMMIT_MESSAGE" value="none" />
+    <MESSAGE value="Page Design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page Design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
