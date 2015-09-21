@@ -13,10 +13,10 @@ Version:1.0
 			override: false,
 			alt: true,
             fontSize: 60,
-            fontWeight: 400,
+            fontWeight: 100,
             fontFamily: 'HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica, Arial,Lucida Grande, sans-serif',
             radius: 0,
-			onlyOne: true
+			onlyOne: false
 		}, options);
 		return this.each(function () {
 			var e = $(this);
@@ -38,7 +38,7 @@ Version:1.0
 					'width': settings.size+'px',
 					'height': settings.size+'px'
 				}).css({
-					'background-color': settings.bgColors[Math.floor((i.charCodeAt(0)) % settings.bgColors.length)],
+					'background-color': settings.bgColors[Math.floor((i.charCodeAt(0)+(i.length==1? 0:i.charCodeAt(1))) % settings.bgColors.length)],
 					'width': settings.size+'px',
 					'height': settings.size+'px',
 					'border-radius': settings.radius+'px',
