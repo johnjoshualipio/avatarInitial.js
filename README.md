@@ -4,7 +4,7 @@ A lightweight jQuery plugin which generates text avatar (SVG based) images with 
 
 ---
 
-<a href="http://lipzycho.github.io/avatarInitial/">Demo Page</a>
+<a href="http://lipzycho.github.io/avatarInitial.js/">Demo Page</a>
 
 
 Usage
@@ -27,7 +27,7 @@ Usage
 
 Options
 --
-**For complete details visit the <a href="http://lipzycho.github.io/avatarInitial/">demo page</a>.**
+**For complete details visit the <a href="http://lipzycho.github.io/avatarInitial.js/">demo page</a>.**
 
 | Option      | data-attribute   | Description                                                    | Default    |
 |-------------|------------------|----------------------------------------------------------------|-------|
