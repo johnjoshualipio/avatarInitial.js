@@ -1,7 +1,7 @@
 /**
 Created By:John Joshua Lipio
 Twitter:@johnjoshualipio
-Version:1.0
+Version:1.0.0
 **/
 (function ($) {
 	$.fn.avatarInitial = function (options) {
@@ -16,7 +16,7 @@ Version:1.0
             fontWeight: 100,
             fontFamily: 'HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica, Arial,Lucida Grande, sans-serif',
             radius: 0,
-			onlyOne: false
+			onlyOne: true
 		}, options);
 		return this.each(function () {
 			var e = $(this);
