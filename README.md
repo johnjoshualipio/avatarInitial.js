@@ -4,7 +4,7 @@ A lightweight jQuery plugin which generates text avatar (SVG based) images with 
 
 ---
 
-<a href="http://johnjoshualipio.github.io/avatarInitial.js/">Demo Page</a> *note yet available
+> <a href="http://johnjoshualipio.github.io/avatarInitial.js/">Demo Page</a> *note yet available
 
 
 Usage
