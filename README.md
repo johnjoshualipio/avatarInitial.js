@@ -39,5 +39,5 @@ Options
 | fontSize    | data-font-size   | Font size of the character(s)                                  | 60     |
 | fontWeight  | data-font-weight | Font weight of the character(s)                                | 100  |
 | radius      | data-radius      | Radius of the corner                                                | 0     |
-| onlyOne     | data-only-one    | Number to randomize the background color                       | true    |
+| onlyOne     | data-only-one    | If true, avatarInitial will only display 1 initial                       | true    |
 
