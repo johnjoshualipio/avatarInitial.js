@@ -4,7 +4,7 @@ A lightweight jQuery plugin which generates text avatar (SVG based) images with 
 
 ---
 
-> <a href="http://johnjoshualipio.github.io/avatarInitial.js/">Demo Page</a> *note yet available
+> <a href="http://johnjoshualipio.github.io/avatarInitial.js/">Demo Page</a> *not yet available
 
 
 Usage
@@ -34,8 +34,8 @@ Options
 | name        | data-name        | Name of the user which the avatar text will be based        | avatarInitial           |
 | size        | data-size      | Height and Width of the picture                             | 100          |
 | textColor   | data-text-color  | Text Color                                                  | #FFF       |
-| override    | data-override  | If true, avatarInitial will generate avatar text and replace the image whether it fail to load or not| false       |
-| alt         | data-alt  | If true, avatarInitial will generate avatar text and replace the image if it fails to load | true  |
+| override    | data-override  | If true, avatarInitial will generate avatar text and replace the image whether it failed to load or not| false       |
+| alt         | data-alt  | If true, avatarInitial will generate avatar text and replace the image if it failed to load | true  |
 | fontSize    | data-font-size   | Font size of the character(s)                                  | 60     |
 | fontWeight  | data-font-weight | Font weight of the character(s)                                | 100  |
 | radius      | data-radius      | Radius of the corner                                                | 0     |
