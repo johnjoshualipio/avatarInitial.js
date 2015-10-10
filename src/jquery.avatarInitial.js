@@ -32,7 +32,7 @@ Version:1.0.0
 					'font-family': settings.fontFamily
 				}).css({
 					'font-weight': settings.fontWeight,
-					'font-size': settings.fontSize+'px',
+					'font-size': settings.fontSize+'px'
 				});
 				var svg = $('<svg xmlns="http://www.w3.org/2000/svg"></svg>').attr({
 					'width': settings.size+'px',
@@ -51,7 +51,7 @@ Version:1.0.0
 				}
 				if(settings.override){e.attr("src",ai);}
 			}
-			e.one('error',function(){if(settings.alt){this.src=ai}});
+			e.on('error',function(){if(settings.alt){e.attr("src",ai)}});
 		});
 	};
 }(jQuery));
